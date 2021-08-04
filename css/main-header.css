@@ -1,0 +1,13 @@
+.main-header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color: transparent;
+}
+
+.background-body {
+    background: url(/images/bg-hero-desktop.svg), hsl(193, 100%, 96%);
+}
+
