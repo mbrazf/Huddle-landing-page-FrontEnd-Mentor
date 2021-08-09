@@ -8,3 +8,7 @@
     width: 400px;
     height: 300px;
 }
+
+.second-img-container.-order {
+    order: 2;
+}

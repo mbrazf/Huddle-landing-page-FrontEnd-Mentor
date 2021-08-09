@@ -19,5 +19,6 @@
     padding: 16px 60px;
     background-color: hsl(322, 100%, 66%);
     border-radius: 50px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
 }
 

@@ -1,4 +1,14 @@
 .main-footer {
-    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 200px;
+    height: 1150px;
     background-color: hsl(192, 100%, 9%);
+}
+
+
+
+.icon-phone {
+    width: 24px;
 }

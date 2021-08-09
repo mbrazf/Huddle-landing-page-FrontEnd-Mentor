@@ -4,7 +4,6 @@
     font-size: 2rem;
     color: hsl(192, 100%, 9%);
     padding-bottom: 30px;
-    text-align: justify;
 }
 
 .main-subtitle{
@@ -14,6 +13,22 @@
     color: hsl(192, 100%, 9%);
     padding-bottom: 30px;
     
+}
+
+.main-subtitle.-second{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+}
+
+.main-subtitle.-white{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    margin-top: 30px;
 }
 
 .main-paragraph {
@@ -29,4 +44,14 @@
     font-weight: 600;
     font-size: 1rem;
     color: hsl(209, 11%, 55%);
+}
+
+.main-paragraph.-second {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+    padding: 0px 25px;
+    margin-left: 25px;
 }
