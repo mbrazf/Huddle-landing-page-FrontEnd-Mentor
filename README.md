@@ -6,7 +6,16 @@ Esta é uma solução para o [Huddle landing page with alternating feature block
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop Version
+![Huddle landing page desktop](https://user-images.githubusercontent.com/72533693/128905392-95575843-381e-43f1-b1b7-e287033a41c9.jpg)
+
+
+
+
+Mobile Version 375px
+![Huddle landing page mobile 375px](https://user-images.githubusercontent.com/72533693/128906074-2d6dffe2-9dbe-4482-895a-dfcf54e5a764.jpg)
+
+
 
 ### Links
 
