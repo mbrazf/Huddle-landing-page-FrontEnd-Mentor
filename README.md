@@ -19,8 +19,8 @@ Mobile Version 375px
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-WJycvxQtb)
+- Live Site URL: (https://huddle-landing-page-front-end-mentor-inky.vercel.app/)
 
 ### Built with
 
