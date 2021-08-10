@@ -8,14 +8,15 @@
         padding: 10px 40px;
         font-size: 14px;
     }
-    
+    body {
+        width: 375px;
+    }
     header {
         margin-bottom: 50px;
     }
     .main-title, .main-subtitle, .main-paragraph, .second-paragraph 
     {
         text-align: center;
-        padding: 0px 30px;
     }
     .main-title{
         margin-bottom: 50px;
@@ -91,35 +92,50 @@
     }
     .icon-phone {
         position: relative;
-        top: 25px;
+        top: 10px;
         left: 30px;
     }
-    .main-paragraph.-second {
-        padding-left: 45px;
+
+    .icon-location {
+        position: relative;
+        top: 48px;
+        width: 24px;
     }
+    
     .icon {
         padding-left: -30px;
         margin-right: 20px;
     }
     .logo-footer {
-        padding-left: 30px;
+        padding-left: 20px;
+        width: 237px;
     }
     .main-subtitle.-second {
         margin-right: 40px;
-        margin-top: 20px;
     }
     .links {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding-top: 40px;
-        padding-left: 25px;
     }
     .main-footer {
+        display: flex;
+        flex-direction: column;
         padding-top: 200px;
-        height: 1150px;
+        height: 1100px;
         background-color: hsl(192, 100%, 9%);
     }
+
+    .wrapper-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding: 20px 0px;
+        height: 1200px;
+        width: 90%;
+    }
+    
 
     .links a{
         font-family: 'Open Sans',sans-serif;
@@ -127,19 +143,32 @@
         font-size: 1rem;
         text-decoration: none;
         color: white;
-        margin-top: 35px;
+        margin-top: 45px;
+        
+    }
+
+    .link1 , .link2{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 170px;
     }
     
     .icon-social {
+        display: inline-block;
+        flex-direction: row;
+        justify-items: center;
         color: white;
         border-radius: 50px;
     }
     
     .social{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        margin-top: 80px;
+        padding-top: 30px;
+        margin: 0 auto;
+        text-align: center;
     }
     .social a{
         font-size: 1.2rem;
@@ -148,6 +177,7 @@
         color: white;
         padding: 12px;
         margin: 10px;
+        text-decoration: none;
     }
 }
 
@@ -162,5 +192,106 @@
 
     .img {
         margin-right: 60px; 
+    }
+
+    .icon-social {
+        display: inline-block;
+        flex-direction: row;
+        justify-items: center;
+        color: white;
+        border-radius: 50px;
+    }
+    
+    .social{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 350px;
+        height: 350px;
+        padding-top: 46px;
+    }
+
+    .copy {
+        padding-top: 50px;
+        width: 350px;
+        height: 100px;
+        
+    }
+    .social a{
+        font-size: 1.2rem;
+        border-radius: 50px;
+        border: 1px solid white ;
+        color: white;
+        padding: 12px;
+        margin: 10px;
+        text-decoration: none;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        width: 450px;
+        height: 300px;
+    }
+    
+    .links a{
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        text-decoration: none;
+        color: white;
+        margin-top: 24px;
+    }
+
+    .link1 , .link2{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 300px;
+        padding: 0 59px;
+        
+
+    }
+    
+    .link1{
+        padding: 0 53px;
+    }
+    .wrapper-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding: 20px 0px;
+        height: 400px;
+        width: 90%;
+    }
+    .text-location {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 350px;
+        padding-top: 34px;
+    }
+    
+    .wrapper-2 {
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .logo-footer {
+        padding: 20px 136px;
+    }
+
+    .icon-location {
+        position: relative;
+        top: 38px;
+        left: 56px;
+        width: 24px;
+    }
+
+    .icon{
+        margin-right: 34px;
     }
 }

@@ -1,14 +1,25 @@
 .main-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     padding-top: 200px;
-    height: 1150px;
+    
     background-color: hsl(192, 100%, 9%);
 }
 
-
-
 .icon-phone {
     width: 24px;
+}
+
+/*.icon-location {
+    
+}
+*/
+
+
+
+.links a{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    margin-top: 35px;
 }
